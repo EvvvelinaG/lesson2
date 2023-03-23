@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editText=findViewById(R.id.editTextTextPersonName);
     }
-
     public void countSymbols(View view) {
         count= editText.getText().toString().length();
         Toast toast = Toast.makeText(getApplicationContext(),"Студентка №5 группы БСБО-07-21 Кол-во символов " + count,Toast.LENGTH_LONG);
